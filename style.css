@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: sans-serif;
     margin-top: 60px;
     margin-right: 120px;
     margin-left: 120px;
@@ -9,7 +9,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-  }
+}
 
 li {
     display: inline;
@@ -19,4 +19,8 @@ li {
 a {
     display: block;
     padding: 24px;
+}
+
+li a:hover {
+    background-color: #E4E4E4;
   }
