@@ -1,17 +1,17 @@
 body {
     font-family: sans-serif;
-    margin-top: 60px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin: 0px;
 }
 
 .nav {
     background-color: white;
     padding-bottom: 24px;
+    margin-top: 60px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .logo {
-    padding: px;
     font-size: xx-large;
     font-weight: 550;
     float: left;
@@ -55,6 +55,7 @@ li.dropdown {
   display: none;
   position: absolute;
   background-color: #e4e4e4;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   min-width: 160px;
   z-index: 1;
 }
@@ -76,16 +77,29 @@ li.dropdown {
 
 .banner {
     display: block;
+    position: relative;
     padding-left: 96px;
     padding-bottom: 64px;
     padding-top: 60px;
     background-color: #F7F7F7;
     box-shadow: 0px 2px 5px #D9D9D9;
-    z-index: -1;
+}
+
+.banpic {
+    text-align: center;
+    font-size: 160px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #E4E4E4;
+    width: 45%;
+    height: 100%;
+    border-bottom-left-radius: 100%;
 }
 
 .bantex {
     color: black;
+    z-index: 1;
 }
 
 .h1b {
@@ -101,6 +115,65 @@ li.dropdown {
 }
 
 .h3b {
+    width: 50%;
     font-weight: 550;
     font-style: italic;
+    padding-bottom: 24px;
+}
+
+.buttonb {
+    background-color: #BEBEBE;
+    border: 2px solid #BEBEBE;
+    color: white;
+    padding: 6px 54px;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.buttonb:hover {
+    background-color: white;
+    color: #F26532;
+    border: 2px solid #F26532;
+}
+
+.quote {
+    background-color: white;
+    margin: 40px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.quopic {
+    float: left;
+    text-align: center;
+    font-size: 60px;
+    background-color: #E4E4E4;
+    width: 128px;
+    height: 128px;
+    border-radius: 100%;
+    margin-right: 40px;
+}
+
+.h2q {
+    font-size: x-large;
+    font-weight: 550;
+    font-style: italic;
+    width: 75%;
+}
+
+.h3q {
+    font-weight: 550;
+    font-style: italic;
+}
+
+.quoquo {
+    background-image: url("Group 55.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+    width: auto;
 }
